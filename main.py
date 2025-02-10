@@ -11,7 +11,7 @@ def menu():
     print('***************************************************************************')
     print('                     ELIJA UNA OPCION PARA EJECUTAR')
     print('***************************************************************************')
-    print('\n[A] - Resolver operacion aritmetica (+, -, *, /) ')
+    print('\n[A] - Resolver operacion aritmetica (+, -, *, /) y Combinar expresiones con los 4 operadores básicos, sin incognitas')
     #print('[E] - Resolver ecuaciones de primer grado dado dos variables con sus valores')
     #print('[S] - Simplificar ecuaciones al tener varias variables')
     print('[X] - Salir')
