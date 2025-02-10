@@ -35,8 +35,8 @@ class PostFixEvaluator:
                     stack.append(result)
                 except IndexError:
                     raise ValueError("Expresión postfija incorrecta")
-            #else:
-            #    raise ValueError(f"Token no válido: {token}")
+            else:
+               raise ValueError(f"Token no válido: {token}")
         
         if len(stack) != 1:
             raise ValueError("Expresión postfija incorrecta")
